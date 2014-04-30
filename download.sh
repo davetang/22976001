@@ -20,3 +20,6 @@ wget ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/fastq/SRA028/SRA028404/SRX037095
 
 #sratoolkit
 wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5-2/sratoolkit.2.3.5-2-centos_linux64.tar.gz
+
+#SHRiMP
+wget http://compbio.cs.toronto.edu/shrimp/releases/SHRiMP_2_2_3.lx26.x86_64.tar.gz
