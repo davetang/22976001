@@ -2,5 +2,8 @@
 *.csfasta
 *.qual
 sratoolkit*
-*.fastq.bz2
+*.log
+*.tsv
+*.bam
+*.fa
 SHRiMP*
