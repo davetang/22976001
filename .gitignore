@@ -1,0 +1,4 @@
+*.sra
+*.csfasta
+*.qual
+sratoolkit*
