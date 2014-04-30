@@ -21,3 +21,6 @@ wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5-2/sratoolkit.2.3.5-2-centos
 
 #SHRiMP
 wget http://compbio.cs.toronto.edu/shrimp/releases/SHRiMP_2_2_3.lx26.x86_64.tar.gz
+
+#download NONCODE version 3
+wget http://noncode.org/datadownload/ncrna_NONCODE[v3.0].fasta.tar.gz
