@@ -2,3 +2,4 @@
 *.csfasta
 *.qual
 sratoolkit*
+*.fastq.bz2
