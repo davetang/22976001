@@ -2,7 +2,7 @@
 
 for file in `ls *.sra`;
    do base=`basename $file .sra`;
-   sratoolkit.2.3.5-2-centos_linux64/bin/abi-dump -A $base $file;
+   sratoolkit*/bin/abi-dump -A $base $file;
 done
 
 #output
