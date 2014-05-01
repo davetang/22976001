@@ -5,8 +5,8 @@ The entire analysis for this paper <http://www.ncbi.nlm.nih.gov/pubmed/22976001>
 
 `git clone https://github.com/davetang/22976001.git` <br />
 `cd 22976001` <br />
-`run.sh df` <br />
+`run.sh` <br />
 
-on a 64 bit machine running CentOS/RHEL.
+on a 64 bit machine running CentOS/RHEL or Ubuntu.
 
 Also check out my blog post on this work at <http://davetang.org/muse/2014/05/01/rett-syndrome-and-pirnas/>
