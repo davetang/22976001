@@ -17,9 +17,14 @@ wget ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sralite/ByExp/litesra/SRX/SRX037
 wget ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sralite/ByExp/litesra/SRX/SRX037/SRX037095/SRR089648/SRR089648.sra
 
 #sratoolkit
-wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5-2/sratoolkit.2.3.5-2-centos_linux64.tar.gz
-#for Ubuntu
-#wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5/sratoolkit.2.3.5-ubuntu64.tar.gz
+linux_distro=`lsb_release -a 2> /dev/null | grep Distributor`
+if [[ "$linux_distro" =~ "Ubuntu" ]]; then
+   wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5/sratoolkit.2.3.5-ubuntu64.tar.gz
+elif [[ "$linux_distro" =~ "RedHat" ]]; then
+   wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.5-2/sratoolkit.2.3.5-2-centos_linux64.tar.gz
+else
+   echo Unanticipated operating system
+fi
 
 #SHRiMP
 wget http://compbio.cs.toronto.edu/shrimp/releases/SHRiMP_2_2_3.lx26.x86_64.tar.gz
