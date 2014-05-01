@@ -6,7 +6,7 @@ echo Downloading files
 
 echo Extracting files
 
-tar -xzf sratoolkit.2.3.5-2-centos_linux64.tar.gz
+tar -xzf sratoolkit*.tar.gz
 tar -xzf SHRiMP_2_2_3.lx26.x86_64.tar.gz
 tar -xzf ncrna_NONCODE[v3.0].fasta.tar.gz
 
