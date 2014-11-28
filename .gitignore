@@ -6,4 +6,6 @@ sratoolkit*
 *.tsv
 *.bam
 *.fa
+*.sam
+*.gz
 SHRiMP*

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fasta=/home/davetang/osc-lm2/davetang/genome/hg19.fa
+fasta=/home/davetang/osc-lm2/davetang/genome/mm9.fa
 fasta_base=`basename $fasta .fa`
 
 for file in `ls *.csfasta`;

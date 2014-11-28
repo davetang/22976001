@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for file in `ls *_hg19_sorted.bam`;
+my_genome=mm9
+
+for file in `ls *_${my_genome}_sorted.bam`;
    do base=`basename $file _sorted.bam`;
    echo "Converting $file to BED"
    bedtools bamtobed -ed -i $file > $base.bed
