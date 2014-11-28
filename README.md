@@ -33,15 +33,6 @@ samtools view SRR089648_F3_mm9_sorted.bam | cut -f1 | sort -u | wc -l
 2785724
 </pre>
 
-What percent of reads were mapped to mm9?
-
-<pre>
-bc -l<<<3656778/3660124*100
-99.90858233218328122200
-bc -l<<<2785724/2789136*100
-99.87766820979686899400
-</pre>
-
 How many read clusters?
 
 <pre>
