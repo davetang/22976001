@@ -9,7 +9,7 @@ for file in `ls *_hg19_sorted.bam`;
    echo "Tallying ${base}_cluster.tsv"
    cat ${base}_cluster.tsv | cut -f7 | uniq -c | sort -k1rn > ${base}_cluster.tally
    echo "Zipping files"
-   gzip $base.bed ${base}_cluseter.tsv ${base}_cluster.tally
+   gzip $base.bed ${base}_cluster.tsv ${base}_cluster.tally
 done
 
 echo Done
