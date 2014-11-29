@@ -33,6 +33,33 @@ samtools view SRR089648_F3_mm9_sorted.bam | cut -f1 | sort -u | wc -l
 2785724
 </pre>
 
+How many places did the reads map to?
+
+<pre>
+samtools view SRR089647_F3_mm9_sorted.bam | cut -f1 | sort | uniq -c | awk '{print $1}' | sort | uniq -c
+   9685 1
+2743596 10
+  20058 2
+  46663 3
+  47740 4
+  63604 5
+  88347 6
+ 128984 7
+ 134207 8
+ 373894 9
+samtools view SRR089648_F3_mm9_sorted.bam | cut -f1 | sort | uniq -c | awk '{print $1}' | sort | uniq -c
+  10612 1
+2128072 10
+  17810 2
+  36804 3
+ 102631 4
+  75542 5
+  77990 6
+ 109670 7
+  98112 8
+ 128481 9
+</pre>
+
 How many read clusters?
 
 <pre>
